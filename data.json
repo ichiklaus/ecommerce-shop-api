@@ -1,0 +1,249 @@
+[
+  {
+    "id": "1",
+    "productBrand": "sneaker company",
+    "productName": "fall limited edition sneakers",
+    "productDescription": "These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.",
+    "productPrice": "125.00",
+    "productDiscount": "50",
+    "productRetailPrice": "250.00",
+    "imagePath": {
+      "imageProduct": {
+        "imageProduct1": "/images/image-product-1.jpg",
+        "imageProduct2": "/images/image-product-2.jpg",
+        "imageProduct3": "/images/image-product-3.jpg",
+        "imageProduct4": "/images/image-product-4.jpg"
+      },
+      "imageProductThumbnail": {
+        "imageProductThumbnail1": "/images/image-product-1-thumbnail.jpg",
+        "imageProductThumbnail2": "/images/image-product-2-thumbnail.jpg",
+        "imageProductThumbnail3": "/images/image-product-3-thumbnail.jpg",
+        "imageProductThumbnail4": "/images/image-product-4-thumbnail.jpg"
+      }
+    }
+  },
+  {
+    "id": "2",
+    "productBrand": "H&M company",
+    "productName": "Slip-on Shoes",
+    "productDescription": "Slip-on shoes in thick cotton canvas with elasticized side panels. Fluted soles. Sole thickness approx. 1 1/2 in.",
+    "productRetailPrice": "17.99",
+    "imagePath": {
+      "imageProduct": {
+        "imageProduct1": "/images/slip-on-shoes-1.jpg",
+        "imageProduct2": "/images/slip-on-shoes-2.webp",
+        "imageProduct3": "/images/slip-on-shoes-3.webp",
+        "imageProduct4": "/images/slip-on-shoes-4.webp"
+      },
+      "imageProductThumbnail": {
+        "imageProductThumbnail1": "/images/slip-on-shoes-1.jpg",
+        "imageProductThumbnail2": "/images/slip-on-shoes-2.webp",
+        "imageProductThumbnail3": "/images/slip-on-shoes-3.webp",
+        "imageProductThumbnail4": "/images/slip-on-shoes-4.webp"
+      }
+    }
+  },
+  {
+    "id": "3",
+    "productBrand": "H&M company",
+    "productName": "Wide-leg Twill Pants",
+    "productDescription": "Long, 5-pocket pants in stretch cotton twill. High waist, zip fly with button, and straight, wide legs.",
+    "productRetailPrice": "17.99",
+    "imagePath": {
+      "imageProduct": {
+        "imageProduct1": "/images/Wide-leg-Twill-Pants-1.webp",
+        "imageProduct2": "/images/Wide-leg-Twill-Pants-2.webp",
+        "imageProduct3": "/images/Wide-leg-Twill-Pants-3.webp",
+        "imageProduct4": "/images/Wide-leg-Twill-Pants-4.webp"
+      },
+      "imageProductThumbnail": {
+        "imageProductThumbnail1": "/images/Wide-leg-Twill-Pants-1.webp",
+        "imageProductThumbnail2": "/images/Wide-leg-Twill-Pants-2.webp",
+        "imageProductThumbnail3": "/images/Wide-leg-Twill-Pants-3.webp",
+        "imageProductThumbnail4": "/images/Wide-leg-Twill-Pants-4.webp"
+      }
+    }
+  },
+  {
+    "id": "4",
+    "productBrand": "H&M company",
+    "productName": "Espadrille Sneakers",
+    "productDescription": "Sneakers in cotton twill with lacing at front and platform soles with braided jute trim. Fabric lining, fabric insoles, and fluted soles.",
+    "productComposition": "Sole: Thermoplastic rubber 100%Lining and insole: Polyester 90%, Cotton 10%Upper: Cotton 100%",
+    "productRetailPrice": "35.99",
+    "imagePath": {
+      "imageProduct": {
+        "imageProduct1": "/images/espadrille-sneakers-1.webp",
+        "imageProduct2": "/images/espadrille-sneakers-2.webp",
+        "imageProduct3": "/images/espadrille-sneakers-3.webp",
+        "imageProduct4": "/images/espadrille-sneakers-4.jpg",
+        "imageProduct5": "/images/espadrille-sneakers-blue-1.webp",
+        "imageProduct6": "/images/espadrille-sneakers-blue-2.webp"
+      },
+      "imageProductThumbnail": {
+        "imageProductThumbnail1": "/images/espadrille-sneakers-1.webp",
+        "imageProductThumbnail2": "/images/espadrille-sneakers-2.webp",
+        "imageProductThumbnail3": "/images/espadrille-sneakers-3.webp",
+        "imageProductThumbnail4": "/images/espadrille-sneakers-4.jpg",
+        "imageProductThumbnail5": "/images/espadrille-sneakers-blue-1.webp",
+        "imageProductThumbnail6": "/images/espadrille-sneakers-blue-2.webp"
+      }
+    }
+  },
+  {
+    "id": "5",
+    "productBrand": "H&M company",
+    "productName": "Chunky Sneakers",
+    "productDescription": "Sneakers in mesh and faux leather with reflective sections. Padded edge and tongue, lacing at front, and loop at back. Mesh lining, mesh insoles, and patterned soles. Sole thickness 2 1/4 in.",
+    "productComposition": "Lining and insole: Polyester 100%Upper: Polyester 100%Upper: Imitation leather 100%Sole: Rubber 80%, Ethylene Vinyl Acetate 20%",
+    "productRetailPrice": "39.99",
+    "imagePath": {
+      "imageProduct": {
+        "imageProduct1": "/images/chunky-sneakers-1.webp",
+        "imageProduct2": "/images/chunky-sneakers-2.webp",
+        "imageProduct3": "/images/chunky-sneakers-3.webp",
+        "imageProduct4": "/images/chunky-sneakers-4.webp",
+        "imageProduct5": "/images/chunky-sneakers-5.webp"
+      },
+      "imageProductThumbnail": {
+        "imageProductThumbnail1": "/images/chunky-sneakers-1.webp",
+        "imageProductThumbnail2": "/images/chunky-sneakers-2.webp",
+        "imageProductThumbnail3": "/images/chunky-sneakers-3.webp",
+        "imageProductThumbnail4": "/images/chunky-sneakers-4.webp",
+        "imageProductThumbnail5": "/images/chunky-sneakers-5.webp"
+      }
+    }
+  },
+  {
+    "id": "6",
+    "productBrand": "H&M company",
+    "productName": "Fine-knit Sneakers",
+    "productDescription": "Fine-knit sneakers with lacing at front and a grosgrain loop at back. Jersey lining, jersey insoles, and ribbed soles. Sole thickness 2 in.",
+    "productComposition": "Sole: Ethylene Vinyl Acetate 100%Lining and insole: Polyester 100%Upper: Polyester 100%",
+    "productRetailPrice": "34.99",
+    "imagePath": {
+      "imageProduct": {
+        "imageProduct1": "/images/fine-knit-sneakers-1.webp",
+        "imageProduct2": "/images/fine-knit-sneakers-2.webp",
+        "imageProduct3": "/images/fine-knit-sneakers-3.webp",
+        "imageProduct4": "/images/fine-knit-sneakers-4.webp",
+        "imageProduct5": "/images/fine-knit-sneakers-5.webp",
+        "imageProduct6": "/images/fine-knit-sneakers-6.jpg"
+      },
+      "imageProductThumbnail": {
+        "imageProductThumbnail1": "/images/fine-knit-sneakers-1.webp",
+        "imageProductThumbnail2": "/images/fine-knit-sneakers-2.webp",
+        "imageProductThumbnail3": "/images/fine-knit-sneakers-3.webp",
+        "imageProductThumbnail4": "/images/fine-knit-sneakers-4.webp",
+        "imageProductThumbnail5": "/images/fine-knit-sneakers-5.webp",
+        "imageProductThumbnail6": "/images/fine-knit-sneakers-6.jpg"
+      }
+    }
+  },
+  {
+    "id": "7",
+    "productBrand": "H&M company",
+    "productName": "Chelsea Boots",
+    "productDescription": "High-profile Chelsea boots in faux leather. Loop at front and back, and elasticized side panels. Satin lining, faux leather insoles, and chunky, patterned soles.",
+    "productComposition": "Lining: Polyester 100%Upper: Polyurethane 100%Sole: Thermoplastic rubber 100%",
+    "productRetailPrice": "39.99",
+    "imagePath": {
+      "imageProduct": {
+        "imageProduct1": "/images/chelsea-boots-1.jpg",
+        "imageProduct2": "/images/chelsea-boots-2.webp",
+        "imageProduct3": "/images/chelsea-boots-3.webp",
+        "imageProduct4": "/images/chelsea-boots-4.webp"
+      },
+      "imageProductThumbnail": {
+        "imageProductThumbnail1": "/images/chelsea-boots-1.jpg",
+        "imageProductThumbnail2": "/images/chelsea-boots-2.webp",
+        "imageProductThumbnail3": "/images/chelsea-boots-3.webp",
+        "imageProductThumbnail4": "/images/chelsea-boots-4.webp"
+      }
+    }
+  },
+  {
+    "id": "8",
+    "productBrand": "H&M company",
+    "productName": "Flip-flops",
+    "productDescription": "Flip-flops in faux leather with a narrow toe post and a wide, padded foot straps. Jersey lining and faux leather insoles. Sole thickness 1/2 in.",
+    "productComposition": "Lining: Polyester 100%Upper: Polyurethane 100%Sole: Thermoplastic rubber 100%",
+    "productRetailPrice": "34.99",
+    "imagePath": {
+      "imageProduct": {
+        "imageProduct1": "/images/flip-flops-1.webp",
+        "imageProduct2": "/images/flip-flops-2.webp",
+        "imageProduct3": "/images/flip-flops-3.webp",
+        "imageProduct4": "/images/flip-flops-4.webp",
+        "imageProduct5": "/images/flip-flops-5.webp"
+      },
+      "imageProductThumbnail": {
+        "imageProductThumbnail1": "/images/flip-flops-1.webp",
+        "imageProductThumbnail2": "/images/flip-flops-2.webp",
+        "imageProductThumbnail3": "/images/flip-flops-3.webp",
+        "imageProductThumbnail4": "/images/flip-flops-4.webp",
+        "imageProductThumbnail5": "/images/flip-flops-5.webp"
+      }
+    }
+  },
+  {
+    "id": "9",
+    "productBrand": "H&M company",
+    "productName": "Flared Leggings",
+    "productDescription": "Leggings in soft, ribbed jersey. High waist, waistband with covered elastic, and flared hems.",
+    "productComposition": "Cotton 95%, Spandex 5%",
+    "productRetailPrice": "17.99",
+    "imagePath": {
+      "imageProduct": {
+        "imageProduct1": "/images/flared-leggings-1.jpg",
+        "imageProduct2": "/images/flared-leggings-2.webp",
+        "imageProduct3": "/images/flared-leggings-3.webp",
+        "imageProduct4": "/images/flared-leggings-4.webp",
+        "imageProduct5": "/images/flared-leggings-5.webp",
+        "imageProduct6": "/images/flared-leggings-6.webp"
+      },
+      "imageProductThumbnail": {
+        "imageProductThumbnail1": "/images/flared-leggings-1.jpg",
+        "imageProductThumbnail2": "/images/flared-leggings-2.webp",
+        "imageProductThumbnail3": "/images/flared-leggings-3.webp",
+        "imageProductThumbnail4": "/images/flared-leggings-4.webp",
+        "imageProductThumbnail5": "/images/flared-leggings-5.webp",
+        "imageProductThumbnail6": "/images/flared-leggings-6.webp"
+      }
+    }
+  },
+  {
+    "id": "10",
+    "productBrand": "H&M company",
+    "productName": "Cargo Pants",
+    "productDescription": "Relaxed-fit cargo pants in woven fabric with straight legs. Low waist, covered elastic at waistband, and zip fly with snap fastener. Diagonal side pockets, leg pockets with flap, and one additional pocket on one leg.",
+    "productComposition": "Cotton 100%",
+    "productRetailPrice": "24.99",
+    "imagePath": {
+      "imageProduct": {
+        "imageProduct1": "/images/cargo-pants-1.webp",
+        "imageProduct2": "/images/cargo-pants-2.webp",
+        "imageProduct3": "/images/cargo-pants-3.webp",
+        "imageProduct4": "/images/cargo-pants-4.webp",
+        "imageProduct5": "/images/cargo-pants-5.webp",
+        "imageProduct6": "/images/cargo-pants-6.webp",
+        "imageProduct7": "/images/cargo-pants-7.webp",
+        "imageProduct8": "/images/cargo-pants-8.webp",
+        "imageProduct9": "/images/cargo-pants-9.webp",
+        "imageProduct10": "/images/cargo-pants-10.webp"
+      },
+      "imageProductThumbnail": {
+        "imageProductThumbnail1": "/images/cargo-pants-1.webp",
+        "imageProductThumbnail2": "/images/cargo-pants-2.webp",
+        "imageProductThumbnail3": "/images/cargo-pants-3.webp",
+        "imageProductThumbnail4": "/images/cargo-pants-4.webp",
+        "imageProductThumbnail5": "/images/cargo-pants-5.webp",
+        "imageProductThumbnail6": "/images/cargo-pants-6.webp",
+        "imageProductThumbnail7": "/images/cargo-pants-7.webp",
+        "imageProductThumbnail8": "/images/cargo-pants-8.webp",
+        "imageProductThumbnail9": "/images/cargo-pants-9.webp",
+        "imageProductThumbnail10": "/images/cargo-pants-10.webp"
+      }
+    }
+  }
+]
