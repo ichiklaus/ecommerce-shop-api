@@ -2,9 +2,9 @@
   "name": "ecommerce-shop-api",
   "version": "1.0.0",
   "description": "The API for the E-Commerce Shop insipired by the Frontend Mentor Challenge",
-  "main": "src/index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [
     "api",
