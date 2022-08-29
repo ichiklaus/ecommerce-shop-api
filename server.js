@@ -2,10 +2,11 @@
 
 const express = require('express');
 const fs = require('fs');
-const { listeners } = require('process');
+// const { listeners } = require('process');
 const app = express();
 // To solve the cors issue
 const cors = require('cors');
+const bodyParser = require("body-parser");
 
 // json file with the data
 const data = fs.readFileSync('data.json');
@@ -14,6 +15,13 @@ const elements = JSON.parse(data);
 app.use('/styles', express.static(process.cwd() + '/src/styles'));
 app.use(express.static('public'));
 app.use(cors());
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
+// Routes
+app.route('/').get(function (req, res) {
+  res.sendFile(process.cwd() + '/src/views/index.html');
+});
 
 // when get request is made, alldata() is called
 app.route('/api/products').get(function alldata(request, response) {
@@ -21,9 +29,7 @@ app.route('/api/products').get(function alldata(request, response) {
   response.send(elements);
 });
 
-app.route('/').get(function (req, res) {
-  res.sendFile(process.cwd() + '/src/views/index.html');
-});
+app.use(require('./src/routes/ecommerce-shop.routes'));
 
 // Respond not found to all the wrong routes
 app.use(function (req, res, next) {
