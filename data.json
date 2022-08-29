@@ -245,5 +245,33 @@
         "imageProductThumbnail10": "/images/cargo-pants-10.webp"
       }
     }
+  },
+  {
+    "product-brand": "H&M company",
+    "product-name": "Chunky Sneakers",
+    "product-description": "Sneakers in mesh and faux leather with reflective sections. Padded edge and tongue, lacing at front, and loop at back. Mesh lining, mesh insoles, and patterned soles. Sole thickness 2 1/4 in.",
+    "product-price": "39.99",
+    "product-discount": "0",
+    "product-retail-price": "39.99"
+  },
+  {
+    "product-brand": "H&M company",
+    "product-name": "Fine-knit Sneakers",
+    "product-description": "Fine-knit sneakers with lacing at front and a grosgrain loop at back. Jersey lining, jersey insoles, and ribbed soles. Sole thickness 2 in.",
+    "product-price": "34.99",
+    "product-discount": "0",
+    "product-retail-price": "34.99",
+    "productBrand": "H&M company",
+    "productName": "Chunky Sneakers",
+    "productDescription": "Sneakers in mesh and faux leather with reflective sections. Padded edge and tongue, lacing at front, and loop at back. Mesh lining, mesh insoles, and patterned soles. Sole thickness 2 1/4 in.",
+    "productPrice": "39.99"
+  },
+  {
+    "product-brand": "H&M company",
+    "product-name": "Fine-knit Sneakers",
+    "product-description": "Fine-knit sneakers with lacing at front and a grosgrain loop at back. Jersey lining, jersey insoles, and ribbed soles. Sole thickness 2 in.",
+    "product-price": "34.99",
+    "product-discount": "0",
+    "product-retail-price": "34.99"
   }
 ]
