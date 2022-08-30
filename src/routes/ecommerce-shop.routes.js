@@ -5,13 +5,13 @@ const router = Router();
 
 // TODO: Add a Product Composition Field
 
-router.get('/api/ecommerce-products', async (req, res) => {
+router.get('/api/ecommerce-articles', async (req, res) => {
   try {
-    const doc = db.collection('ecommerce-shop').doc('ecommerce-shop-products');
-    const querySnapshot = await doc.collection('product').get();
+    const doc = db.collection('ecommerce-shop').doc('ecommerce-shop-articles');
+    const querySnapshot = await doc.collection('article').get();
     const response = querySnapshot.docs.map((doc) => ({
       id: doc.id,
-      productDetails: doc.data(),
+      articleDetails: doc.data(),
     }));
     return res.status(200).json(response);
   } catch (error) {
@@ -19,17 +19,17 @@ router.get('/api/ecommerce-products', async (req, res) => {
   }
 });
 
-router.get('/api/ecommerce-products/:id', async (req, res) => {
-  let productId = req.params.id;
+router.get('/api/ecommerce-articles/:id', async (req, res) => {
+  let articleId = req.params.id;
 
   try {
-    const docRef = db.collection('ecommerce-shop').doc('ecommerce-shop-products');
-    const querySnapshot = docRef.collection('product');
-    const docs = querySnapshot.doc(productId);
+    const docRef = db.collection('ecommerce-shop').doc('ecommerce-shop-articles');
+    const querySnapshot = docRef.collection('article');
+    const docs = querySnapshot.doc(articleId);
     const item = await docs.get();
     const response = {
       id: item.id,
-      productDetails: item.data()
+      articleDetails: item.data()
     }
     // const response = querySnapshot.docs.map((doc) => {
     //   if (doc.id === productId) {
@@ -42,30 +42,24 @@ router.get('/api/ecommerce-products/:id', async (req, res) => {
   }
 });
 
-let guid = () => {
-  let s4 = () => {
-      return Math.floor((1 + Math.random()) * 0x10000)
-          .toString(16)
-          .substring(1);
-  }
-  //return id of format 'aaaaaaaa'-'aaaa'-'aaaa'-'aaaa'-'aaaaaaaaaaaa'
-  return s4() + s4() + '-' + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4() + s4();
-}
-
-router.post('/api/ecommerce-products', async (req, res) => {
+router.post('/api/ecommerce-articles', async (req, res) => {
   try {
     await db
       .collection('ecommerce-shop')
-      .doc('ecommerce-shop-products')
-      .collection('product')
-      .doc('/' + guid() +'/')
+      .doc('ecommerce-shop-articles')
+      .collection('article')
+      .doc('/' + req.body['article-number'] +'/')
       .create({
-        'product-brand': req.body['product-brand'],
-        'product-name': req.body['product-name'],
-        'product-description': req.body['product-description'],
-        'product-price': req.body['product-price'],
-        'product-discount': req.body['product-discount'],
-        'product-retail-price': req.body['product-retail-price'],
+        'article-brand': req.body['article-brand'],
+        'article-name': req.body['article-name'],
+        'article-number': req.body['article-number'],
+        'article-description': req.body['article-description'],
+        'article-composition': req.body['article-composition'],
+        'article-size': req.body['article-size'],
+        'article-number': req.body['article-number'],
+        'article-retail-price': req.body['article-retail-price'],
+        'article-discount': req.body['article-discount'],
+        'article-images-path': req.body['article-images-path'],
       });
     return res.status(200).json({ message: "Added." });
   } catch (error) {
