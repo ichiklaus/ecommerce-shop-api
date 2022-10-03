@@ -56,7 +56,7 @@ router.post('/api/ecommerce-articles', async (req, res) => {
         'article-description': req.body['article-description'],
         'article-composition': req.body['article-composition'],
         'article-size': req.body['article-size'],
-        'article-number': req.body['article-number'],
+        'article-gender-section': req.body['article-gender-section'],
         'article-retail-price': req.body['article-retail-price'],
         'article-discount': req.body['article-discount'],
         'article-images-path': req.body['article-images-path'],
