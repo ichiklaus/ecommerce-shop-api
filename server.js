@@ -14,7 +14,7 @@ const elements = JSON.parse(data);
 
 app.use('/styles', express.static(process.cwd() + '/src/styles'));
 app.use(express.static('public'));
-app.use(cors());
+app.use(cors(({ origin: '*' })));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
